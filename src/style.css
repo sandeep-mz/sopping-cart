@@ -152,6 +152,17 @@ h2{
      
 }
 @media screen and (width <= 1365px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        font-size: 12px;
+         
+        
+         
+         
+    }
     .shop-container{
         grid-template-columns: repeat(3, 1fr);
     }
